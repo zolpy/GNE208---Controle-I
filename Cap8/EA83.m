@@ -1,0 +1,12 @@
+close all;
+clear all;
+clc;
+% numg=poly([3]);
+% deng=poly([1 1 2 4);
+s = tf('s');
+K=1;
+G = K/((s+2)*(s+4)*(s+6));
+% G=tf(numg,deng);
+rlocus(G);
+% z=0.5;
+% sgrid(z,-1.3333);
